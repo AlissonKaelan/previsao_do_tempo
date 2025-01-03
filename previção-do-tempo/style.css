@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+#caixa-maior{
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+font-variation-settings:
+    "wdth" 100;
+background-color: black;
+opacity: 0.8;    
+border-radius: 25px;
+padding: 20px;
+width: 90%;
+max-width: 450px;
+}
+
+body{
+    height: 100vh; /*Altura*/
+    width: 100vw; /*Largura*/
+    display: flex;
+    justify-content: center; /*Alinhar eixo horizontal*/
+    align-items: center; /*Alinhar na vertical*/
+    background: linear-gradient(320deg,#012f6b,#f7fdfb,#083ce6);
+    
+}
+input{
+    border: none; /*none para tirar a borda*/
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7b7b7b2b;
+    color: #ffffff; /*cor da letra*/
+    width: calc(100% - 100px);
+
+
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7b7b7b2b;
+    cursor: pointer; /*Quando o mause entrar na lupa vira uma mao*/
+    float: right; /*button vai para a direita*/
+
+}
+
+img{
+    width: 20px;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 300; /*afinar a letra*/
+}
+
+.temp{
+    color: white;
+    font-size:  24px;
+    margin-top: 20px;
+
+}
+
+.umidade{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+.txttempo{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
